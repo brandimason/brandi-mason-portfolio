@@ -12,41 +12,40 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div id="home" className="bg-gray-200 h-screen">
-        <Home/>
-      </div>
+        <div>
+          <div id="home" className="bg-gray-200 h-screen">
+            <Home/>
+          </div>
 
-      <div id="about" className="bg-gray-200 h-screen">
-        <h1>story</h1>
-        <About/>
-      </div>
+          <div id="about" className="bg-gray-200 h-screen">
+            <h1>story</h1>
+            <About/>
+          </div>
 
-      <div id="skills" className="bg-gray-200 h-screen">
-        <h1>skills</h1>
-        <Skills/>
-      </div>
+          {/* <div id="skills" className="bg-gray-200 h-48">
+            <h1>skills</h1>
+            <Skills/>
+          </div> */}
+          <Skills/>
 
-      <div id="projects" className="bg-gray-200 h-screen">
-        <h1>projects</h1>
-        <Projects/>
-      </div>
+          <div id="projects" className="bg-gray-200 h-screen">
+            <h1>projects</h1>
+            <Projects/>
+          </div>
 
-      <div id="blogs" className="bg-gray-200 h-screen">
-        <h1>blogs</h1>
-        <Blogs/>
-      </div>
+          <div id="blogs" className="bg-gray-200 h-screen">
+            <h1>blogs</h1>
+            <Blogs/>
+          </div>
 
-      <div id="contact" className="bg-gray-200 h-screen">
-        <h1>get to know me</h1>
-        <GetToKnowMe/>
-      </div>
+          <div id="contact" className="bg-gray-200 h-96">
+            <GetToKnowMe/>
+          </div>
 
-      <div id="contact" className="bg-gray-200 h-screen">
-        <h1>get in touch</h1>
-        <Contact/>
-      </div>
-
-
+          <div id="contact">
+            <Contact/>
+          </div>
+        </div>
     </div>
   );
 }
