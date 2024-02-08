@@ -9,22 +9,22 @@ function NavBar() {
       <div className="flex-grow flex items-center w-auto">
         <div className="text-sm flex-grow">
             <a href="#home" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-4">
-                Home
+                home
             </a>  
             <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-4">
-                About
+                about
             </a>
             <a href="#skills" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-4">
-                Skills
+                skills
             </a>
             <a href="#projects" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-4">
-                Projects
+                projects
             </a>
             <a href="#blogs" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-4">
-                Blogs
+                blogs
             </a>
             <a href="#contact" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-500 mr-4">
-                Contact
+                contact
             </a>
         </div>
       </div>

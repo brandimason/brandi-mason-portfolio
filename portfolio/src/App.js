@@ -10,42 +10,22 @@ import GetToKnowMe from "./components/GetToKnowMe";
 
 function App() {
   return (
-    <div>
+    <div className="content-center">
       <NavBar />
-        <div>
-          <div id="home" className="bg-gray-200 h-screen">
-            <Home/>
-          </div>
 
-          <div id="about" className="bg-gray-200 h-screen">
-            <h1>story</h1>
-            <About/>
-          </div>
+      <Home/>
+    
+      <About/>
+    
+      <Skills/>
 
-          {/* <div id="skills" className="bg-gray-200 h-48">
-            <h1>skills</h1>
-            <Skills/>
-          </div> */}
-          <Skills/>
+      <Projects />
+    
+      <Blogs/>
 
-          <div id="projects" className="bg-gray-200 h-screen">
-            <h1>projects</h1>
-            <Projects/>
-          </div>
-
-          <div id="blogs" className="bg-gray-200 h-screen">
-            <h1>blogs</h1>
-            <Blogs/>
-          </div>
-
-          <div id="contact" className="bg-gray-200 h-96">
-            <GetToKnowMe/>
-          </div>
-
-          <div id="contact">
-            <Contact/>
-          </div>
-        </div>
+      <GetToKnowMe />
+    
+      <Contact/>
     </div>
   );
 }
